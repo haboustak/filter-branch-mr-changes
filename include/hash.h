@@ -6,3 +6,4 @@ struct hash_item {
 };
 
 void hash_add(struct hash_item *item);
+void hash_del(struct hash_item *item);
