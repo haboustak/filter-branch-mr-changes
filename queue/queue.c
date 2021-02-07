@@ -1,8 +1,8 @@
 #include "queue.h"
 
-static struct queue_item queue = {};
+static struct queue_item m_queue = {};
 
 void queue_add(struct queue_item *item)
 {
-    queue.id = item->id;
+    m_queue.id = item->id;
 }
