@@ -6,3 +6,4 @@ struct queue_item {
 };
 
 void queue_add(struct queue_item *item);
+void queue_del(struct queue_item *item);
