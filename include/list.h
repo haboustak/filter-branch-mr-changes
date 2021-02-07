@@ -4,6 +4,7 @@
 
 struct list_item {
     uint32_t    id;
+    uint32_t    size;
     bool        present;
 }
 
